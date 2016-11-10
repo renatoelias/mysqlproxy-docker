@@ -27,7 +27,7 @@ Docker container for MySQL Proxy
           MYSQL_PASSWORD: password
 
       mysqlproxy:
-        image: gediminaspuksmys/mysqlproxy-docker:0.8.5
+        image: gediminaspuksmys/mysqlproxy:0.8.5
         ports:
           - "3308:3306"
         restart: always
