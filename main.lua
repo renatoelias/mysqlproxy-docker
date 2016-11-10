@@ -1,6 +1,3 @@
-local password = assert(require("mysql.password"))
-local proto = assert(require("mysql.proto"))
-
 local log_file = '/mysql_query.log'
 
 local fh = io.open(log_file, "a+")
