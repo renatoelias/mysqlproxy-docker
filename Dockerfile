@@ -5,10 +5,10 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/
 
-RUN wget https://downloads.mysql.com/archives/get/file/mysql-proxy-0.8.5-linux-debian6.0-x86-64bit.tar.gz && \
-    tar -xzvf mysql-proxy-0.8.5-linux-debian6.0-x86-64bit.tar.gz && \
-    mv mysql-proxy-0.8.5-linux-debian6.0-x86-64bit /opt/mysql-proxy && \
-    rm mysql-proxy-0.8.5-linux-debian6.0-x86-64bit.tar.gz
+RUN wget https://downloads.mysql.com/archives/get/file/mysql-proxy-0.8.4-linux-debian6.0-x86-64bit.tar.gz && \
+    tar -xzvf mysql-proxy-0.8.4-linux-debian6.0-x86-64bit.tar.gz && \
+    mv mysql-proxy-0.8.4-linux-debian6.0-x86-64bit /opt/mysql-proxy && \
+    rm mysql-proxy-0.8.4-linux-debian6.0-x86-64bit.tar.gz
 
 RUN chown -R root:root /opt/mysql-proxy
 
